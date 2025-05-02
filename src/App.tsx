@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       
-      <Viewbox value={cislo} max={333}/>
+      <Viewbox value={cislo} max={333} makeColor={(p) =>  'rgb($(p*200), 255, 255)'}/>
     </>
   )
 }
